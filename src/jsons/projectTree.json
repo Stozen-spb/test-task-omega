@@ -1,0 +1,2069 @@
+﻿[
+{
+"Project": "My test awersome project",
+"Code": "000000001",
+"FullDescription": "",
+"Version": "00.00.01",
+"HUB": [
+{
+"Description": "HUB.supervisor v1.0",
+"Code": "000000001",
+"Server": "10.33.0.69",
+"Port": 9070,
+"EurekaAddress": "http://10.33.0.69:8761/",
+"UseHubForConnections": true
+}
+],
+"JDBC": [
+{
+"Description": "Test database PSQL",
+"Code": "00004",
+"HTTPAdress": "10.0.4.108:5432",
+"Authorization": "Basic auth",
+"APIBaseURL": "analit_chd_no",
+"APISchemeURL": "",
+"AuthorizationJSON": "",
+"AutorizationLogin": "postgres",
+"AutorizationPassword": "pgsqlom",
+"AutorizationToken": "",
+"SourceKind": "Postgre SQL",
+"Server": "127.0.0.1",
+"Port": 9040,
+"Objects": [
+{
+"Description": "RegSrednyaya-zarplata",
+"Code": "000000019",
+"Type": "",
+"Properties": [
+{
+"Name": "Группа позиций",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Должность",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "ИНН_Организации",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "ИНН_Физлица",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "Категория для отчетов мониторинга",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "Категория мониторинга работников ",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Код категории",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Количество ставок",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "2"
+},
+{
+"Name": "КФО",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Наименование начисления",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Организация",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Период",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "Позиция штатного расписания",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "СНИЛС",
+"Type": "varchar",
+"Nullable": false,
+"Length": "14",
+"Radix": "0"
+},
+{
+"Name": "Сотрудник",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "100",
+"Radix": "0"
+},
+{
+"Name": "Сумма",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "2"
+},
+{
+"Name": "Физическое лицо",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "report_2",
+"Code": "000000020",
+"Type": "",
+"Properties": [
+{
+"Name": "Вид договора",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Вид занятости",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Группа позиций",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Дата начала периода нетрудостпосо",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "Дата окончания периода нетрудостп",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "Должность",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Инвалидность",
+"Type": "bool",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ИНН_Организации",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "ИНН_Физлица",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "Категория для отчетов мониторинга",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "Категория мониторинга работников ",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Код категории",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "КФО",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Наименование начисления",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "НСИ Должность",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НСИ Наименование начисления",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НСИ Позиция штатного расписания",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Организация",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Период",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "Позиция штатного расписания",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Причина нетрудоспособности",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Размер ставки",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "2"
+},
+{
+"Name": "СНИЛС",
+"Type": "varchar",
+"Nullable": false,
+"Length": "14",
+"Radix": "0"
+},
+{
+"Name": "Сотрудник",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "100",
+"Radix": "0"
+},
+{
+"Name": "Сотрудник_Код",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "10",
+"Radix": "0"
+},
+{
+"Name": "Ссылка_Группа позиций",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Статья финансирования",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "100",
+"Radix": "0"
+},
+{
+"Name": "Сумма",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "2"
+},
+{
+"Name": "Сумма начислений за период",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "0"
+},
+{
+"Name": "Физическое лицо",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "SprOrganizacii",
+"Code": "000000011",
+"Type": "",
+"Properties": [
+{
+"Name": "Адрес",
+"Type": "varchar",
+"Nullable": false,
+"Length": "255",
+"Radix": "0"
+},
+{
+"Name": "Главный распорядитель бюджетных с",
+"Type": "varchar",
+"Nullable": false,
+"Length": "100",
+"Radix": "0"
+},
+{
+"Name": "ИНН",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "Лицевой счет",
+"Type": "varchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "Наименование",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Наименование полное",
+"Type": "varchar",
+"Nullable": false,
+"Length": "512",
+"Radix": "0"
+},
+{
+"Name": "Наименование сокращенное",
+"Type": "varchar",
+"Nullable": false,
+"Length": "160",
+"Radix": "0"
+},
+{
+"Name": "ОКВЭД иная деятельность",
+"Type": "varchar",
+"Nullable": false,
+"Length": "8",
+"Radix": "0"
+},
+{
+"Name": "ОКВЭД основная деятельность",
+"Type": "varchar",
+"Nullable": false,
+"Length": "8",
+"Radix": "0"
+},
+{
+"Name": "ОКОПФ",
+"Type": "varchar",
+"Nullable": false,
+"Length": "5",
+"Radix": "0"
+},
+{
+"Name": "ОКФС",
+"Type": "varchar",
+"Nullable": false,
+"Length": "2",
+"Radix": "0"
+},
+{
+"Name": "Пометка удаления",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ссылка",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "SprPlan-vidov-raschetov-nachisleniya",
+"Code": "000000012",
+"Type": "",
+"Properties": [
+{
+"Name": "ИНН_Организации",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "Категория видов начислений",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Код",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "9",
+"Radix": "0"
+},
+{
+"Name": "Наименование",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Организация",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Пометка удаления",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ссылка",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "SprPodrazdeleniya",
+"Code": "000000009",
+"Type": "",
+"Properties": [
+{
+"Name": "ИНН_Организации",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "Код",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "9",
+"Radix": "0"
+},
+{
+"Name": "Наименование",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Организация",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Пометка удаления",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ссылка",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "SprSHtatnoe-raspisanie",
+"Code": "000000010",
+"Type": "",
+"Properties": [
+{
+"Name": "Группа позиций",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Дата закрытия",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "Дата утверждения",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "Должность",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "ИНН_Организации",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "Категория для отчетов мониторинга",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "Категория мониторинга работников ",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Количество ставок",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "2"
+},
+{
+"Name": "Наименование",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Организация",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Подразделение",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "Пометка удаления",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ссылка",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "v8_inforeg399",
+"Code": "000000014",
+"Type": "",
+"Properties": [
+{
+"Name": "v8_fld1419",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld1420",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld1421",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld1422",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "v8_inforeg400",
+"Code": "000000013",
+"Type": "",
+"Properties": [
+{
+"Name": "v8_fld1423",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld1424",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld1425",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "v8_reference210",
+"Code": "000000015",
+"Type": "",
+"Properties": [
+{
+"Name": "v8_code",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "3",
+"Radix": "0"
+},
+{
+"Name": "v8_description",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "100",
+"Radix": "0"
+},
+{
+"Name": "v8_fld624",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_folder",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_id",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_marked",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_parent",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "v8_reference212",
+"Code": "000000016",
+"Type": "",
+"Properties": [
+{
+"Name": "v8_code",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "11",
+"Radix": "0"
+},
+{
+"Name": "v8_description",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "v8_fld629",
+"Type": "varchar",
+"Nullable": false,
+"Length": "3",
+"Radix": "0"
+},
+{
+"Name": "v8_fld630",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld631",
+"Type": "text",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_id",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_marked",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "v8_reference224",
+"Code": "000000017",
+"Type": "",
+"Properties": [
+{
+"Name": "v8_code",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "10",
+"Radix": "0"
+},
+{
+"Name": "v8_description",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "v8_fld701",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "v8_fld702",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld703",
+"Type": "varchar",
+"Nullable": false,
+"Length": "12",
+"Radix": "0"
+},
+{
+"Name": "v8_fld704",
+"Type": "varchar",
+"Nullable": false,
+"Length": "14",
+"Radix": "0"
+},
+{
+"Name": "v8_fld705",
+"Type": "varchar",
+"Nullable": false,
+"Length": "240",
+"Radix": "0"
+},
+{
+"Name": "v8_fld706",
+"Type": "varchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "v8_fld707",
+"Type": "varchar",
+"Nullable": false,
+"Length": "15",
+"Radix": "0"
+},
+{
+"Name": "v8_fld708",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "v8_fld709",
+"Type": "varchar",
+"Nullable": false,
+"Length": "70",
+"Radix": "0"
+},
+{
+"Name": "v8_fld710",
+"Type": "varchar",
+"Nullable": false,
+"Length": "10",
+"Radix": "0"
+},
+{
+"Name": "v8_fld711",
+"Type": "varchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "v8_fld712",
+"Type": "varchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "v8_fld713",
+"Type": "varchar",
+"Nullable": false,
+"Length": "50",
+"Radix": "0"
+},
+{
+"Name": "v8_fld714",
+"Type": "varchar",
+"Nullable": false,
+"Length": "10",
+"Radix": "0"
+},
+{
+"Name": "v8_fld715",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_folder",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_id",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_marked",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_parent",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "v8_reference230",
+"Code": "000000018",
+"Type": "",
+"Properties": [
+{
+"Name": "v8_description",
+"Type": "bpchar",
+"Nullable": false,
+"Length": "150",
+"Radix": "0"
+},
+{
+"Name": "v8_fld722",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld723",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld724",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld725",
+"Type": "numeric",
+"Nullable": false,
+"Length": "10",
+"Radix": "2"
+},
+{
+"Name": "v8_fld726",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld727",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "v8_fld728",
+"Type": "timestamp",
+"Nullable": false,
+"Length": "6",
+"Radix": "0"
+},
+{
+"Name": "v8_fld729",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_fld730",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_id",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_marked",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "v8_parent",
+"Type": "bytea",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+}
+]
+},
+{
+"Description": "Virtual DWH",
+"Code": "00005",
+"HTTPAdress": "http://127.0.0.1:7575/",
+"Authorization": "No auth",
+"APIBaseURL": "d:\\hub\\database.db",
+"APISchemeURL": "",
+"AuthorizationJSON": "",
+"AutorizationLogin": "",
+"AutorizationPassword": "",
+"AutorizationToken": "",
+"SourceKind": "SQLlite",
+"Server": "",
+"Port": 0,
+"Objects": []
+},
+{
+"Description": "DWH #1",
+"Code": "00006",
+"HTTPAdress": "10.33.8.79",
+"Authorization": "Basic auth",
+"APIBaseURL": "dwh1",
+"APISchemeURL": "",
+"AuthorizationJSON": "",
+"AutorizationLogin": "postgres",
+"AutorizationPassword": "pgsqlom",
+"AutorizationToken": "",
+"SourceKind": "Postgre SQL",
+"Server": "127.0.0.1",
+"Port": 9040,
+"Objects": []
+},
+{
+"Description": "DRUID ",
+"Code": "00007",
+"HTTPAdress": "10.33.8.79:8888",
+"Authorization": "No auth",
+"APIBaseURL": "",
+"APISchemeURL": "",
+"AuthorizationJSON": "",
+"AutorizationLogin": "",
+"AutorizationPassword": "",
+"AutorizationToken": "",
+"SourceKind": "Druid",
+"Server": "127.0.0.1",
+"Port": 9050,
+"Objects": [
+{
+"Description": "report_2",
+"Code": "000000026",
+"Type": "",
+"Properties": [
+{
+"Name": "__time",
+"Type": "TIMESTAMP",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Датаначалапериоданетрудостпосо",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Датаокончанияпериоданетрудостп",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Должность",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Инвалидность",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Кодкатегории",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Количество событий",
+"Type": "BIGINT",
+"Nullable": false,
+"Length": "19",
+"Radix": "0"
+},
+{
+"Name": "Наименованиеначисления",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НСИДолжность",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НСИНаименованиеначисления",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НСИПозицияштатногорасписания",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Организация",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Период",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Позицияштатногорасписания",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Размерставки",
+"Type": "BIGINT",
+"Nullable": false,
+"Length": "19",
+"Radix": "0"
+},
+{
+"Name": "Сотрудник",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Сотрудник_Код",
+"Type": "VARCHAR",
+"Nullable": true,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Сумма",
+"Type": "BIGINT",
+"Nullable": false,
+"Length": "19",
+"Radix": "0"
+},
+{
+"Name": "Сумманачисленийзапериод",
+"Type": "BIGINT",
+"Nullable": false,
+"Length": "19",
+"Radix": "0"
+}
+]
+}
+]
+}
+],
+"OData": [
+{
+"Description": "Тестовый документооборот",
+"Code": "00001",
+"HTTPAdress": "https://dotest.gkomega.ru/odata/standard.odata",
+"Authorization": "Basic auth",
+"APIBaseURL": "",
+"APISchemeURL": "/DataSource/GetSchema/",
+"AuthorizationJSON": "",
+"AutorizationLogin": "itilium",
+"AutorizationPassword": "123456",
+"AutorizationToken": "",
+"SourceKind": "",
+"Server": "127.0.0.1",
+"Port": 9070,
+"Objects": [
+{
+"Description": "Catalog_Контрагенты",
+"Code": "000000022",
+"Type": "Catalog",
+"Properties": [
+{
+"Name": "Code",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "DataVersion",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "DeletionMark",
+"Type": "Boolean",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Description",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "IsFolder",
+"Type": "Boolean",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Parent_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Predefined",
+"Type": "Boolean",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "PredefinedDataName",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ref_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ГруппаДоступа_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДополнительныеРеквизиты",
+"Type": "Catalog_Контрагенты_ДополнительныеРеквизиты_RowType",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ИНН",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "КодПоОКПО",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Комментарий",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "КонтактнаяИнформация",
+"Type": "Catalog_Контрагенты_КонтактнаяИнформация_RowType",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "КПП",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НаименованиеПолное",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ОКВЭД",
+"Type": "Catalog_Контрагенты_ОКВЭД_RowType",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ОсновнойБанковскийСчет_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ответственный_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "РегистрационныйНомер",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "сфпCoMagicID",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ФизЛицо_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ЮрФизЛицо",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "Catalog_Контрагенты_ДополнительныеРеквизиты",
+"Code": "000000023",
+"Type": "",
+"Properties": [
+{
+"Name": "LineNumber",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ref_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Значение",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Значение_Type",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Свойство_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ТекстоваяСтрока",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "Catalog_Контрагенты_КонтактнаяИнформация",
+"Code": "000000024",
+"Type": "",
+"Properties": [
+{
+"Name": "LineNumber",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ref_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "АдресЭП",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Вид_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ВидДляСписка_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Город",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДействуетС",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДоменноеИмяСервера",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ЗначенияПолей",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НомерТелефона",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НомерТелефонаБезКодов",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Представление",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Регион",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Страна",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Тип",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "Catalog_Контрагенты_ОКВЭД",
+"Code": "000000025",
+"Type": "",
+"Properties": [
+{
+"Name": "LineNumber",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Ref_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "КодОКВЭД_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "InformationRegister_омТрудозатратыYouTrack",
+"Code": "000000021",
+"Type": "",
+"Properties": [
+{
+"Name": "ВидРабот_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ГУИДФактическихТРЗ",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДатаДобавления",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ИдентификаторYT",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ИдентификаторТРЗ",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НомерДобавления",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ОписаниеРаботы",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ОшибкаПринятияКУчету",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Пользователь_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ПредставлениеВнешнегоИсточника",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ПринятаКУчету",
+"Type": "Boolean",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Проект_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ПроектнаяЗадача_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "РегистрацияТрудозатрат",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "СостояниеИсточника",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Трудозатраты",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+},
+{
+"Description": "InformationRegister_ФактическиеТрудозатраты",
+"Code": "000000004",
+"Type": "Register (data table)",
+"Properties": [
+{
+"Name": "ВидРабот_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Выгружено",
+"Type": "Boolean",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ГУИД",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ГУИДВнешнегоИсточника",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДатаДобавления",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДатаСменыСтатуса",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Длительность",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДлительностьВВыходные",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДлительностьДляКлиента",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДлительностьСверхурочно",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДлительностьФактическая",
+"Type": "Int64",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ДоговорКонтрагента_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ЕжедневныйОтчет",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ЕжедневныйОтчет_Type",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ИдентификаторВнешнегоИсточника",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Источник",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Источник_Type",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "КомментарийКонтролера",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Контрагент_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Контролер_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Начало",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "НомерДобавления",
+"Type": "Int16",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Окончание",
+"Type": "DateTime",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "омСистемаИсточник_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ОписаниеРаботы",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Подразделение_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Показатель_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Пользователь_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ПредставлениеВнешнегоИсточника",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Проект_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "ПроектнаяЗадача_Key",
+"Type": "Guid",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "СостояниеИсточника",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "СтатусТрудозатрат",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "Удалена",
+"Type": "Boolean",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+},
+{
+"Name": "УдалитьОписаниеРаботы",
+"Type": "String",
+"Nullable": false,
+"Length": "0",
+"Radix": "0"
+}
+]
+}
+]
+}
+]
+},
+{
+"Project": "Pre sale demo project",
+"Code": "000000002",
+"FullDescription": "",
+"Version": "",
+"HUB": [
+{
+"Description": "HUB.supervisor v1.0",
+"Code": "000000001",
+"Server": "10.33.0.69",
+"Port": 9070,
+"EurekaAddress": "http://10.33.0.69:8761/",
+"UseHubForConnections": true
+}
+],
+"JDBC": [],
+"OData": []
+}
+]
