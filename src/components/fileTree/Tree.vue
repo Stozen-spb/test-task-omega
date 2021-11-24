@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <ul @click="isHidden = !isHidden">
+    <div class="box">
+        <ul class="directory-list" @click="isHidden = !isHidden">
             <li v-for="(item, index) in structure" :key="item.Code">
                 <Folder v-if="isFolder(item)" :structure="item" :name="index" />
                 <File v-else :name="index" />

@@ -21,12 +21,9 @@ export default {
 };
 </script>
 
-<style scoped>
-@import './assets/css/style.css';
-
-#app {
-    background-color: #36383b;
-    color: #fff;
-    user-select: none;
-}
+<style lang="sass" scoped>
+#app
+    background-color: #36383b
+    color: #fff
+    user-select: none
 </style>
